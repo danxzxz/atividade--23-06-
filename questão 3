@@ -1,0 +1,15 @@
+programa
+	{
+	funcao inicio()
+	{
+		inteiro numero = 1
+		inteiro n2 = 20
+
+
+		enquanto (numero <= n2 ){
+			escreva(n2,", ")
+			n2--
+
+		}
+	}
+}
