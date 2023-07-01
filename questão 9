@@ -1,0 +1,20 @@
+programa
+	{
+
+	funcao inicio()
+	{
+		inteiro tabuada
+		inteiro num = 0
+
+		escreva("Você deseja a tabuada de qual número?\n")
+		leia(tabuada)
+		
+		escreva("Tabuada do ", tabuada, "\n")
+		
+		enquanto (num < 10){
+
+			escreva(num++, "x", tabuada, " = ", num * tabuada, "\n")
+
+		}
+	}
+}
